@@ -1,7 +1,11 @@
+import Form from "./components/Form";
+
 function App() {
   return (
     <main className="App">
-      <h1>Привет</h1>
+      <div class="conteiner_content">
+        <Form></Form>
+      </div>
     </main>
   );
 }

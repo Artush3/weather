@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Reset and base styles  */
 * {
+	font-family: "Bitter", serif;
 	padding: 0px;
 	margin: 0px;
 	border: none;
@@ -90,4 +93,48 @@ legend {
 
 input[type='file'] {
 	max-width: 100%;
+}
+
+main.App {
+	background-color: #75bbfd;
+	padding: 100px 0;
+	width: 100%;
+
+	div.conteiner_content {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 30px;
+
+		section.section_form {
+			width: 300px;
+
+			h1 {
+				font-size: 40px;
+				color: red;
+				font-weight: 800;
+				margin-bottom: 10px;
+			}
+
+			form.section_form_form {
+				width: 100%;
+
+				label {
+					font-weight: 600;
+					font-size: 30px;
+					color: white;
+				}
+
+				input {
+					margin: 20px 0;
+					width: 100%;
+					padding-bottom: 5px;
+				}
+
+				button {
+					background-color: bisque;
+					padding: 10px 20px;
+				}
+			}
+		}
+	}
 }
