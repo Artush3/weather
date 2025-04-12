@@ -99,8 +99,12 @@ main.App {
 	background-color: #75bbfd;
 	padding: 100px 0;
 	width: 100%;
+	min-height: 2000px;
 
 	div.conteiner_content {
+		display: flex;
+		align-items: start;
+		justify-content: space-between;
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0 30px;
@@ -134,6 +138,26 @@ main.App {
 					background-color: bisque;
 					padding: 10px 20px;
 				}
+			}
+		}
+
+		div.city_weather {
+			height: max-content;
+			width: max-content;
+			padding: 30px;
+			margin-bottom: 20px;
+			border-radius: 20px;
+			background-color: silver;
+
+			h1:first-of-type {
+				color: white;
+				font-size: 30px;
+			}
+
+			P {
+				cursor: pointer;
+				float: right;
+				color: red;
 			}
 		}
 	}
